@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		9BE130C42BCC04EA00FE883B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130C32BCC04EA00FE883B /* AppDelegate.swift */; };
 		9BE130C62BCC04EA00FE883B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130C52BCC04EA00FE883B /* SceneDelegate.swift */; };
-		9BE130C82BCC04EA00FE883B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130C72BCC04EA00FE883B /* ViewController.swift */; };
-		9BE130CB2BCC04EA00FE883B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9BE130CA2BCC04EA00FE883B /* Base */; };
+		9BE130C82BCC04EA00FE883B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130C72BCC04EA00FE883B /* MainViewController.swift */; };
 		9BE130CD2BCC04EB00FE883B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE130CC2BCC04EB00FE883B /* Assets.xcassets */; };
 		9BE130D02BCC04EB00FE883B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9BE130CF2BCC04EB00FE883B /* Base */; };
+		9BE130DD2BCC064C00FE883B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130DC2BCC064C00FE883B /* SecondViewController.swift */; };
+		9BE130DF2BCC065700FE883B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130DE2BCC065700FE883B /* ThirdViewController.swift */; };
+		9BE130E22BCC092900FE883B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130E12BCC092900FE883B /* Coordinator.swift */; };
+		9BE130E42BCC0A3200FE883B /* BaseCoorditator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130E32BCC0A3200FE883B /* BaseCoorditator.swift */; };
+		9BE130E62BCC0AB700FE883B /* AppCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130E52BCC0AB700FE883B /* AppCoordinate.swift */; };
+		9BE130E82BCC0B8500FE883B /* MainVCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130E72BCC0B8500FE883B /* MainVCCoordinator.swift */; };
+		9BE130EA2BCC914500FE883B /* SecondVCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130E92BCC914500FE883B /* SecondVCCoordinator.swift */; };
+		9BE130EC2BCC992000FE883B /* ThirdVCCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE130EB2BCC992000FE883B /* ThirdVCCoordinate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BE130C02BCC04EA00FE883B /* MVVM-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE130C32BCC04EA00FE883B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BE130C52BCC04EA00FE883B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BE130C72BCC04EA00FE883B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9BE130CA2BCC04EA00FE883B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE130C72BCC04EA00FE883B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9BE130CC2BCC04EB00FE883B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE130CF2BCC04EB00FE883B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE130D12BCC04EB00FE883B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE130DC2BCC064C00FE883B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9BE130DE2BCC065700FE883B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9BE130E12BCC092900FE883B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9BE130E32BCC0A3200FE883B /* BaseCoorditator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoorditator.swift; sourceTree = "<group>"; };
+		9BE130E52BCC0AB700FE883B /* AppCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinate.swift; sourceTree = "<group>"; };
+		9BE130E72BCC0B8500FE883B /* MainVCCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCCoordinator.swift; sourceTree = "<group>"; };
+		9BE130E92BCC914500FE883B /* SecondVCCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCCoordinator.swift; sourceTree = "<group>"; };
+		9BE130EB2BCC992000FE883B /* ThirdVCCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVCCoordinate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,70 @@
 		9BE130C22BCC04EA00FE883B /* MVVM-C */ = {
 			isa = PBXGroup;
 			children = (
-				9BE130C32BCC04EA00FE883B /* AppDelegate.swift */,
-				9BE130C52BCC04EA00FE883B /* SceneDelegate.swift */,
-				9BE130C72BCC04EA00FE883B /* ViewController.swift */,
-				9BE130C92BCC04EA00FE883B /* Main.storyboard */,
-				9BE130CC2BCC04EB00FE883B /* Assets.xcassets */,
-				9BE130CE2BCC04EB00FE883B /* LaunchScreen.storyboard */,
+				9BE130E02BCC090F00FE883B /* Coordinator */,
 				9BE130D12BCC04EB00FE883B /* Info.plist */,
+				9BE130D72BCC05EF00FE883B /* Application */,
+				9BE130D82BCC05FA00FE883B /* MainVC */,
+				9BE130D92BCC060800FE883B /* SecondVC */,
+				9BE130DA2BCC060F00FE883B /* ThirdVC */,
+				9BE130DB2BCC062700FE883B /* SupportingFiles */,
 			);
 			path = "MVVM-C";
+			sourceTree = "<group>";
+		};
+		9BE130D72BCC05EF00FE883B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9BE130C32BCC04EA00FE883B /* AppDelegate.swift */,
+				9BE130C52BCC04EA00FE883B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9BE130D82BCC05FA00FE883B /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				9BE130C72BCC04EA00FE883B /* MainViewController.swift */,
+				9BE130E72BCC0B8500FE883B /* MainVCCoordinator.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		9BE130D92BCC060800FE883B /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				9BE130DC2BCC064C00FE883B /* SecondViewController.swift */,
+				9BE130E92BCC914500FE883B /* SecondVCCoordinator.swift */,
+			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
+		9BE130DA2BCC060F00FE883B /* ThirdVC */ = {
+			isa = PBXGroup;
+			children = (
+				9BE130DE2BCC065700FE883B /* ThirdViewController.swift */,
+				9BE130EB2BCC992000FE883B /* ThirdVCCoordinate.swift */,
+			);
+			path = ThirdVC;
+			sourceTree = "<group>";
+		};
+		9BE130DB2BCC062700FE883B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9BE130CC2BCC04EB00FE883B /* Assets.xcassets */,
+				9BE130CE2BCC04EB00FE883B /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9BE130E02BCC090F00FE883B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9BE130E12BCC092900FE883B /* Coordinator.swift */,
+				9BE130E32BCC0A3200FE883B /* BaseCoorditator.swift */,
+				9BE130E52BCC0AB700FE883B /* AppCoordinate.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +196,6 @@
 			files = (
 				9BE130CD2BCC04EB00FE883B /* Assets.xcassets in Resources */,
 				9BE130D02BCC04EB00FE883B /* Base in Resources */,
-				9BE130CB2BCC04EA00FE883B /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +206,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE130C82BCC04EA00FE883B /* ViewController.swift in Sources */,
+				9BE130DD2BCC064C00FE883B /* SecondViewController.swift in Sources */,
+				9BE130C82BCC04EA00FE883B /* MainViewController.swift in Sources */,
+				9BE130E42BCC0A3200FE883B /* BaseCoorditator.swift in Sources */,
+				9BE130EA2BCC914500FE883B /* SecondVCCoordinator.swift in Sources */,
+				9BE130E22BCC092900FE883B /* Coordinator.swift in Sources */,
+				9BE130DF2BCC065700FE883B /* ThirdViewController.swift in Sources */,
 				9BE130C42BCC04EA00FE883B /* AppDelegate.swift in Sources */,
 				9BE130C62BCC04EA00FE883B /* SceneDelegate.swift in Sources */,
+				9BE130E82BCC0B8500FE883B /* MainVCCoordinator.swift in Sources */,
+				9BE130E62BCC0AB700FE883B /* AppCoordinate.swift in Sources */,
+				9BE130EC2BCC992000FE883B /* ThirdVCCoordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9BE130C92BCC04EA00FE883B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BE130CA2BCC04EA00FE883B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BE130CE2BCC04EB00FE883B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +365,9 @@
 				INFOPLIST_FILE = "MVVM-C/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREFIX_HEADER = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +393,9 @@
 				INFOPLIST_FILE = "MVVM-C/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREFIX_HEADER = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
